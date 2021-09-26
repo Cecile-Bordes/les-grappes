@@ -1,0 +1,114 @@
+.section {
+  $el: &;
+
+  &__inner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  &__particulier,
+  &__professionnel,
+  &__vigneron {
+    padding: 50px 10px 0;
+    text-align: center;
+    position: relative;
+
+    img {
+      width:146px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    p {
+      color:$color-third;
+      font-size:0.813rem;
+      text-transform: uppercase;
+      line-height: 0.625rem;
+    }
+  }
+
+  .on::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 6%;
+    transform: translate3d(-50%, 30px, 0);
+    width: 85px;
+    border:3px solid $color-five;
+    border-radius:5px;
+  }
+
+  &__form {
+    text-align: center;
+    width: 50%;
+    padding: 30px 50px;
+    display: table-cell;
+  }
+
+  &__separator {
+    padding: 50px 20px;
+    text-align: center;
+    width: 50px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2.25rem;
+    font-family:$font-primary;
+  }
+
+  &__btn {
+    padding: 50px 20px;
+    justify-content: center;
+    vertical-align: top;
+    width: 48%;
+    padding: 30px 50px;
+    display: table-cell;
+  }
+  
+  &__text {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  &--alt {
+    background-color: $color-fourth;
+  }
+
+  // DEVICE : LAPTOP
+
+  @media screen and (min-width: $laptop) {
+    &__inner {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 80px 0 0;
+    }
+
+    &__text {
+      text-align: left;
+      padding: 0 100px;
+    }
+
+    &__img {
+      img {
+        max-width: inherit;
+      }
+    }
+
+    &--alt {
+      #{$el}__inner {
+        flex-direction: row-reverse;
+      }
+    }
+
+  }
+}

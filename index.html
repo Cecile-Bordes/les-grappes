@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://apis.google.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:wght@400;500&display=swap" />
+  <title>Les Grappes test</title>
+  <!-- Favicons-->
+  <link rel="apple-touch-icon" href="/assets/img/logo-lesgrappes.svg">
+  <!-- Appel de la css du site pour afficher le header et le footer -->
+  <link rel="stylesheet" async type="text/css" href="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/css/app.css?t=1630360800" media="all" />
+  <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"Articles",
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":https://www.lesgrappes.com/
+        },
+        "headline":"Mon projet : Les grappes !",
+        "description":"Mon projet",
+        "articleBody":"",
+        "publisher":{
+            "@type":"Organization",
+            "name":"Les grappes",
+            "logo":{
+                "@type":"ImageObject",
+                "url":"./assets/img/logo-lesgrappes.svg","height":"550","width":"500"
+            }
+        },
+        "author":{
+            "@type":"Person","name":"Les grappes"
+        },
+        "datePublished":"2021-09-24T00:00:00Z","dateModified":"2021-09-25T00:00:00Z",
+        "image":{
+            "@type":"ImageObject",
+            "url":https://www.lesgrappes.com/
+        }
+    }
+</script> 
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" role="header" aria-label="Entête de page">
+      <div class="header__top-msg">
+        <span>FOIRE AUX VINS D’AUTOMNE : Profitez de belles remises JUSQU’A -34% !</span>
+      </div>
+        <div class="wrap wrap--no-shrink">
+          <div class="header__top">
+            <div class="top__left">
+                <span class="header__icon header__icon--mobile-burger" data-js="burger-menu"><i class="icon-burger"></i></span>
+                <span class="header__icon header__icon--mobile-search" data-js="search-button"><i class="icon-search"></i></span>
+                <div class="lang">
+                    <a href="https://www.lesgrappes.com/grims/language/switch?lang=fr" class="lang__item active" title="Les Grappes en Français">FR</a>
+                    <a href="https://www.lesgrappes.com/grims/language/switch?lang=en" class="lang__item" title="Les Grappes en English">EN</a>
+                </div>
+                <a href="https://www.lesgrappes.com/vin-professionnel" class="button-pro" title="ACHETEUR PROFESSIONNEL ?">ACHETEUR PROFESSIONNEL ?</a>
+            </div>
+            <a href="https://www.lesgrappes.com/" title="Les Grappes">
+              <img class="logo" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/logo.svg" alt="Les Grappes" width="170">
+            </a>
+            <div class="top__right">
+                <a href="https://www.lesgrappes.com/inscription" class="link-inscription">S'inscrire</a>
+                <a href="https://www.lesgrappes.com/se-connecter" class="link-connexion">Connexion</a>
+                <a href="https://www.lesgrappes.com/se-connecter" class="header__icon header__icon--mobile-account" title="Connexion"><i class="icon-account"></i></a>
+                <span class="header__icon header__icon--cart" data-js="button-cart"><i class="icon-basket"></i>
+                  <span class="icon__badge hide" data-js="cart-badge">0</span>
+                </span>
+            </div>
+          </div>
+          <div class="header__bottom" data-js="menu-mobile">
+              <nav class="menu">
+                <ul>
+                  <li data-js="menu">
+                    <a href="https://www.lesgrappes.com/vignerons" class="menu__link">Nos Vignerons</a>
+                    <div class="menu__submenu">
+                    <div class="submenu__content">
+                      <div class="content__left">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="submenu__title">Par région</div>
+                              <ul class="submenu__list-links">
+                                  <li><a href="https://www.lesgrappes.com/vignerons/alsace">Alsace</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/beaujolais">Beaujolais</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/bourgogne">Bourgogne</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/bordeaux">Bordeaux</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/champagne">Champagne</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/jura">Jura</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/languedoc">Languedoc</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/loire">Loire</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/provence">Provence</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/roussillon">Roussillon</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/savoie">Savoie</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/sud-ouest">Sud-Ouest</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vignerons/vallee-du-rhone">Vallée du Rhône</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-8">
+                              <div class="submenu__title">Les mieux notés</div>
+                                <div class="submenu__triptyque">
+                                  <a href="https://www.lesgrappes.com/vignerons/u/champagne-marteaux" title="Champagne Olivier et Laetitia Marteaux" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s.lesgrappes.com/media/winemaker_tmp/1090/olivier_laetitia.jpegxw74xh74xgn.webp, https://s.lesgrappes.com/media/winemaker_tmp/1090/olivier_laetitia.jpegxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s.lesgrappes.com/media/winemaker_tmp/1090/olivier_laetitia.jpegxw74xh74xgn.jpg, https://s.lesgrappes.com/media/winemaker_tmp/1090/olivier_laetitia.jpegxw74xh74xr2xgn.jpg 2x" src="https://s.lesgrappes.com/media/winemaker_tmp/1090/olivier_laetitia.jpegxw74xh74xgn.jpg" alt="Champagne Olivier et Laetitia Marteaux" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/domaine-de-la-dourbie" title="Domaine de la Dourbie" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s1.lesgrappes.com/media/avatar/m/a/c91078ccebdd1f77eb212cd17fafec8a1472560596.jpgxw74xh74xgn.webp, https://s1.lesgrappes.com/media/avatar/m/a/c91078ccebdd1f77eb212cd17fafec8a1472560596.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s1.lesgrappes.com/media/avatar/m/a/c91078ccebdd1f77eb212cd17fafec8a1472560596.jpgxw74xh74xgn.jpg, https://s1.lesgrappes.com/media/avatar/m/a/c91078ccebdd1f77eb212cd17fafec8a1472560596.jpgxw74xh74xr2xgn.jpg 2x" src="https://s1.lesgrappes.com/media/avatar/m/a/c91078ccebdd1f77eb212cd17fafec8a1472560596.jpgxw74xh74xgn.jpg" alt="Domaine de la Dourbie" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/chateau-de-nages" title="Château de Nages - Famille Gassier" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s2.lesgrappes.com/media/winemaker_tmp/22112/1541680694michel_vineyard_web.jpgxw74xh74xgn.webp, https://s2.lesgrappes.com/media/winemaker_tmp/22112/1541680694michel_vineyard_web.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s2.lesgrappes.com/media/winemaker_tmp/22112/1541680694michel_vineyard_web.jpgxw74xh74xgn.jpg, https://s2.lesgrappes.com/media/winemaker_tmp/22112/1541680694michel_vineyard_web.jpgxw74xh74xr2xgn.jpg 2x" src="https://s2.lesgrappes.com/media/winemaker_tmp/22112/1541680694michel_vineyard_web.jpgxw74xh74xgn.jpg" alt="Château de Nages - Famille Gassier" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                </div>
+                              <div class="submenu__title">Les + achetés</div>
+                                <div class="submenu__triptyque">
+                                  <a href="https://www.lesgrappes.com/vignerons/u/domaine-allemand" title="Domaine Allemand" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s3.lesgrappes.com/media/winemaker_tmp/3022/marc_et_sa_fille_laetitia_.jpgxw74xh74xgn.webp, https://s3.lesgrappes.com/media/winemaker_tmp/3022/marc_et_sa_fille_laetitia_.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s3.lesgrappes.com/media/winemaker_tmp/3022/marc_et_sa_fille_laetitia_.jpgxw74xh74xgn.jpg, https://s3.lesgrappes.com/media/winemaker_tmp/3022/marc_et_sa_fille_laetitia_.jpgxw74xh74xr2xgn.jpg 2x" src="https://s3.lesgrappes.com/media/winemaker_tmp/3022/marc_et_sa_fille_laetitia_.jpgxw74xh74xgn.jpg" alt="Domaine Allemand" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/egiategia" title="Egiategia" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s.lesgrappes.com/media/winemaker_tmp/1462/emmanuellow.jpgxw74xh74xgn.webp, https://s.lesgrappes.com/media/winemaker_tmp/1462/emmanuellow.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s.lesgrappes.com/media/winemaker_tmp/1462/emmanuellow.jpgxw74xh74xgn.jpg, https://s.lesgrappes.com/media/winemaker_tmp/1462/emmanuellow.jpgxw74xh74xr2xgn.jpg 2x" src="https://s.lesgrappes.com/media/winemaker_tmp/1462/emmanuellow.jpgxw74xh74xgn.jpg" alt="Egiategia" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/chateau-des-annereaux" title="Château des Annereaux" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s1.lesgrappes.com/media/winemaker_tmp/143/benjamin_hessel___chai__barriques.pngxw74xh74xgn.webp, https://s1.lesgrappes.com/media/winemaker_tmp/143/benjamin_hessel___chai__barriques.pngxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s1.lesgrappes.com/media/winemaker_tmp/143/benjamin_hessel___chai__barriques.pngxw74xh74xgn.jpg, https://s1.lesgrappes.com/media/winemaker_tmp/143/benjamin_hessel___chai__barriques.pngxw74xh74xr2xgn.jpg 2x" src="https://s1.lesgrappes.com/media/winemaker_tmp/143/benjamin_hessel___chai__barriques.pngxw74xh74xgn.jpg" alt="Château des Annereaux" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                </div>
+                                <div class="submenu__title">Les pépites de la communauté</div>
+                                <div class="submenu__triptyque">
+                                  <a href="https://www.lesgrappes.com/vignerons/u/domaine-amirault-le-clos-des-quarterons" title="Xavier Amirault Clos des Quarterons" class="triptyque__item">
+                                      <picture>
+                                        <source srcset="https://s2.lesgrappes.com/media/winemaker_tmp/7761/agnes_et_xavier.jpgxw74xh74xgn.webp, https://s2.lesgrappes.com/media/winemaker_tmp/7761/agnes_et_xavier.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                        <img loading="lazy" srcset="https://s2.lesgrappes.com/media/winemaker_tmp/7761/agnes_et_xavier.jpgxw74xh74xgn.jpg, https://s2.lesgrappes.com/media/winemaker_tmp/7761/agnes_et_xavier.jpgxw74xh74xr2xgn.jpg 2x" src="https://s2.lesgrappes.com/media/winemaker_tmp/7761/agnes_et_xavier.jpgxw74xh74xgn.jpg" alt="Xavier Amirault Clos des Quarterons" width="74" height="74">
+                                      </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/maison-ventenac" title="Maison Ventenac" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s3.lesgrappes.com/media/winemaker_tmp/15932/olivier__stephanie_vignes.jpgxw74xh74xgn.webp, https://s3.lesgrappes.com/media/winemaker_tmp/15932/olivier__stephanie_vignes.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s3.lesgrappes.com/media/winemaker_tmp/15932/olivier__stephanie_vignes.jpgxw74xh74xgn.jpg, https://s3.lesgrappes.com/media/winemaker_tmp/15932/olivier__stephanie_vignes.jpgxw74xh74xr2xgn.jpg 2x" src="https://s3.lesgrappes.com/media/winemaker_tmp/15932/olivier__stephanie_vignes.jpgxw74xh74xgn.jpg" alt="Maison Ventenac" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                  <a href="https://www.lesgrappes.com/vignerons/u/domaine-de-loye" title="Domaine de Loye" class="triptyque__item">
+                                    <picture>
+                                      <source srcset="https://s.lesgrappes.com/media/avatar/1/4/b78ef645484290d485c9559ae8ca17d01469744257.jpgxw74xh74xgn.webp, https://s.lesgrappes.com/media/avatar/1/4/b78ef645484290d485c9559ae8ca17d01469744257.jpgxw74xh74xr2xgn.webp 2x" type="image/webp">
+                                      <img loading="lazy" srcset="https://s.lesgrappes.com/media/avatar/1/4/b78ef645484290d485c9559ae8ca17d01469744257.jpgxw74xh74xgn.jpg, https://s.lesgrappes.com/media/avatar/1/4/b78ef645484290d485c9559ae8ca17d01469744257.jpgxw74xh74xr2xgn.jpg 2x" src="https://s.lesgrappes.com/media/avatar/1/4/b78ef645484290d485c9559ae8ca17d01469744257.jpgxw74xh74xgn.jpg" alt="Domaine de Loye" width="74" height="74">
+                                    </picture>
+                                  </a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content__right">
+                          <div class="submenu__title">Nos sélections</div>
+                            <div class="submenu__nos-selection">
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/31_412x280.pngxw206xh140.webp, https://s1.lesgrappes.com/media/lesgrappes21/menu/31_412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/31_412x280.pngxw206xh140.jpg, https://s1.lesgrappes.com/media/lesgrappes21/menu/31_412x280.pngxw412xh280.jpg 2x" src="https://s1.lesgrappes.com/media/lesgrappes21/menu/31_412x280.pngxw206xh140.jpg" alt="Les derniers arrivés" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/selection/vignerons/nos-nouveaux-vignerons">Les derniers arrivés</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/32_412x280.pngxw206xh140.webp, https://s2.lesgrappes.com/media/lesgrappes21/menu/32_412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/32_412x280.pngxw206xh140.jpg, https://s2.lesgrappes.com/media/lesgrappes21/menu/32_412x280.pngxw412xh280.jpg 2x" src="https://s2.lesgrappes.com/media/lesgrappes21/menu/32_412x280.pngxw206xh140.jpg" alt="Vignerons Insolites" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/selection/vignerons/vignerons-insolites">Vignerons Insolites</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/33_412x280.pngxw206xh140.webp, https://s3.lesgrappes.com/media/lesgrappes21/menu/33_412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/33_412x280.pngxw206xh140.jpg, https://s3.lesgrappes.com/media/lesgrappes21/menu/33_412x280.pngxw412xh280.jpg 2x" src="https://s3.lesgrappes.com/media/lesgrappes21/menu/33_412x280.pngxw206xh140.jpg" alt="Nos Top Vigneronnes" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/selection/vignerons/femmes-vigneronnes">Nos Top Vigneronnes</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/34_412x280.pngxw206xh140.webp, https://s.lesgrappes.com/media/lesgrappes21/menu/34_412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/34_412x280.pngxw206xh140.jpg, https://s.lesgrappes.com/media/lesgrappes21/menu/34_412x280.pngxw412xh280.jpg 2x" src="https://s.lesgrappes.com/media/lesgrappes21/menu/34_412x280.pngxw206xh140.jpg" alt="La nouvelle vague" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/selection/vignerons/vignerons-jeunes">La nouvelle vague</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="submenu__footer"><a href="https://www.lesgrappes.com/vignerons">Accéder à nos vignerons</a></div>
+                    </div>
+                  </li>
+                  <li data-js="menu">
+                    <a href="https://www.lesgrappes.com/vins" class="menu__link">Nos Vins</a>
+                    <div class="menu__submenu">
+                      <div class="submenu__content">
+                        <div class="content__left">
+                          <div class="row">
+                            <div class="col-3">
+                              <div class="submenu__title">Couleurs</div>
+                                <ul class="submenu__list-links">
+                                  <li><a href="https://www.lesgrappes.com/vins/rouge">Rouge</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/blanc">Blanc</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/rose">Rosé</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/petillant">Pétillant</a></li>
+                                </ul>
+                                <div class="submenu__title">Classification</div>
+                                <ul class="submenu__list-links">
+                                  <li><a href="https://www.lesgrappes.com/vins/agriculture-raisonnee">Raisonnée</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/bio">BIO</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/biodynamie">Biodynamie</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/nature">Nature</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vins/vegan">Végan</a></li>
+                                </ul>
+                              </div>
+                              <div class="col-3">
+                                <div class="submenu__title">Par région</div>
+                                <ul class="submenu__list-links">
+                                    <li><a href="https://www.lesgrappes.com/vins/alsace">Alsace</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/beaujolais">Beaujolais</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/bourgogne">Bourgogne</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/bordeaux">Bordeaux</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/champagne">Champagne</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/jura">Jura</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/languedoc">Languedoc</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/loire">Loire</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/provence">Provence</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/roussillon">Roussillon</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/savoie">Savoie</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/sud-ouest">Sud-Ouest</a></li>
+                                    <li><a href="https://www.lesgrappes.com/vins/vallee-du-rhone">Vallée du Rhône</a></li>
+                                </ul>
+                              </div>
+                              <div class="col-6">
+                                <div class="submenu__title">Les plus vendus</div>
+                                  <div class="submenu__plus-vendus">
+                                    <picture>
+                                        <source srcset="https://s1.lesgrappes.com/media/catalog/product/o/s/oscar_rouge_1.pngxw60xh170xgc.webp, https://s1.lesgrappes.com/media/catalog/product/o/s/oscar_rouge_1.pngxw60xh170xr2xgc.webp 2x" type="image/webp">
+                                        <img srcset="https://s1.lesgrappes.com/media/catalog/product/o/s/oscar_rouge_1.pngxw60xh170xgc.jpg, https://s1.lesgrappes.com/media/catalog/product/o/s/oscar_rouge_1.pngxw60xh170xr2xgc.jpg 2x" src="https://s1.lesgrappes.com/media/catalog/product/o/s/oscar_rouge_1.pngxw60xh170xgc.jpg" alt="oscar - Rouge - 2020 - Domaine de la Dourbie" width="60" height="170">
+                                    </picture>
+                                    <div class="plus-vendus__price">10<sup>€30</sup></div>
+                                    <div class="rate rate--4">
+                                    <div class="rate__bullets"><div class="progress" style="width:100%;"></div></div>
+                                    <div class="rate__avis">2 avis</div>
+                                  </div>
+                                  <div class="plus-vendus__brand">Domaine de la Dourbie</div>
+                                  <div class="plus-vendus__name">oscar - Rouge - 2020</div>
+                                  <div class="plus-vendus__origin">Languedoc <span>- Pays d’Hérault</span></div>
+                                  <a href="https://www.lesgrappes.com/vin/domaine-de-la-dourbie-oscar-rouge-rouge-2020-11561" class="plus-vendus__link"></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="content__right">
+                            <div class="submenu__title">Nos sélections</div>
+                            <div class="submenu__nos-selection">
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/B412x280.pngxw206xh140.webp, https://s1.lesgrappes.com/media/lesgrappes21/menu/B412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/B412x280.pngxw206xh140.jpg, https://s1.lesgrappes.com/media/lesgrappes21/menu/B412x280.pngxw412xh280.jpg 2x" src="https://s1.lesgrappes.com/media/lesgrappes21/menu/B412x280.pngxw206xh140.jpg" alt="Les mieux notés" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/vins?order=bestrank">Les mieux notés</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/C412x280.pngxw206xh140.webp, https://s2.lesgrappes.com/media/lesgrappes21/menu/C412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/C412x280.pngxw206xh140.jpg, https://s2.lesgrappes.com/media/lesgrappes21/menu/C412x280.pngxw412xh280.jpg 2x" src="https://s2.lesgrappes.com/media/lesgrappes21/menu/C412x280.pngxw206xh140.jpg" alt="Vins à moins de 10€" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/vins?prices=4.00%2C10.00">Vins à moins de 10€</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/D412x280.pngxw206xh140.webp, https://s3.lesgrappes.com/media/lesgrappes21/menu/D412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/D412x280.pngxw206xh140.jpg, https://s3.lesgrappes.com/media/lesgrappes21/menu/D412x280.pngxw412xh280.jpg 2x" src="https://s3.lesgrappes.com/media/lesgrappes21/menu/D412x280.pngxw206xh140.jpg" alt="Nos trouvailles" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/nos-10-meilleurs-rapports-qualite-prix">Nos trouvailles</a>
+                              </div>
+                              <div class="submenu__img-link">
+                                <picture>
+                                  <source srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/E412x280.pngxw206xh140.webp, https://s.lesgrappes.com/media/lesgrappes21/menu/E412x280.pngxw412xh280.webp 2x" type="image/webp">
+                                  <img loading="lazy" srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/E412x280.pngxw206xh140.jpg, https://s.lesgrappes.com/media/lesgrappes21/menu/E412x280.pngxw412xh280.jpg 2x" src="https://s.lesgrappes.com/media/lesgrappes21/menu/E412x280.pngxw206xh140.jpg" alt="Les vins étonnants" width="206" height="140">
+                                </picture>
+                                <a href="https://www.lesgrappes.com/vin-pour-surprendre">Les vins étonnants</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="submenu__footer"><a href="https://www.lesgrappes.com/vins">Accéder à nos vins</a></div>
+                      </div>
+                    </li>
+                    <li data-js="menu">
+                      <a href="https://www.lesgrappes.com/selection" class="menu__link">Sélection</a>
+                      <div class="menu__submenu">
+                        <div class="submenu__content">
+                          <div class="content__left">
+                            <div class="row mob-no-padding">
+                              <div class="col-6">
+                                <div class="submenu__title">Vins</div>
+                                <ul class="submenu__list-links">
+                                  <li><a href="https://www.lesgrappes.com/vins?order=bestrank" class="">Les mieux notés</a></li>
+                                  <li><a href="https://www.lesgrappes.com/nos-10-meilleurs-rapports-qualite-prix" class="">Top 10 rapport qualité prix</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vin-pour-surprendre" class="">Top 10 des vins pour surprendre</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vin-pour-epater" class="">Top 10 des vins pour épater</a></li>
+                                  <li><a href="https://www.lesgrappes.com/vin-pour-faire-sa-cave" class="">Top 10 des vins pour sa cave</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vins" class="highlight">Toutes nos sélections de vins</a></li>
+                                </ul>
+                              </div>
+                              <div class="col-6">
+                                <div class="submenu__title">Vignerons</div>
+                                <ul class="submenu__list-links">
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/nos-nouveaux-vignerons?order=bestrank" class="">Ils viennent de nous rejoindre</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-insolites" class="">Les plus insolites</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-jeunes" class="">La nouvelle vague</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-rhone" class="">Incontournables du Rhône</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-bordeaux" class="">Incontournables du Bordeaux</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-loire" class="">Incontournables de Loire</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons/vignerons-champagne" class="">Incontournables de Champagne</a></li>
+                                  <li><a href="https://www.lesgrappes.com/selection/vignerons" class="highlight">Toutes nos sélections de vignerons</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="content__right">
+                            <div class="submenu__img-link submenu__img-link--fullwidth">
+                              <picture>
+                                <source srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/26_848x328.pngxw424xh164.webp, https://s1.lesgrappes.com/media/lesgrappes21/menu/26_848x328.pngxw848xh328.webp 2x" type="image/webp">
+                                <img srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/26_848x328.pngxw424xh164.jpg, https://s1.lesgrappes.com/media/lesgrappes21/menu/26_848x328.pngxw848xh328.jpg 2x" src="https://s1.lesgrappes.com/media/lesgrappes21/menu/26_848x328.pngxw424xh164.jpg" alt="" loading="lazy" width="424" height="164">
+                              </picture>
+                              <a href="https://www.lesgrappes.com/vins/bio">Nos vins bio</a>
+                            </div>
+                            <div class="submenu__img-link submenu__img-link--fullwidth">
+                              <picture>
+                                <source srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/27_848x328.pngxw424xh164.webp, https://s2.lesgrappes.com/media/lesgrappes21/menu/27_848x328.pngxw848xh328.webp 2x" type="image/webp">
+                                <img srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/27_848x328.pngxw424xh164.jpg, https://s2.lesgrappes.com/media/lesgrappes21/menu/27_848x328.pngxw848xh328.jpg 2x" src="https://s2.lesgrappes.com/media/lesgrappes21/menu/27_848x328.pngxw424xh164.jpg" alt="" loading="lazy" width="424" height="164">
+                              </picture>
+                              <a href="https://www.lesgrappes.com/vins/champagne">Nos Champagnes</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="submenu__footer"><a href="https://www.lesgrappes.com/selection">Toutes nos sélections</a></div>
+                      </div>
+                    </li>
+                    <li data-js="menu">
+                      <a href="https://www.lesgrappes.com/visites-degustations" class="menu__link">Visites</a>
+                      <div class="menu__submenu">
+                        <div class="submenu__content">
+                          <div class="row mob-no-padding">
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/28_626x328.pngxw313xh164.webp, https://s3.lesgrappes.com/media/lesgrappes21/menu/28_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/28_626x328.pngxw313xh164.jpg, https://s3.lesgrappes.com/media/lesgrappes21/menu/28_626x328.pngxw628xh328.jpg 2x" src="https://s3.lesgrappes.com/media/lesgrappes21/menu/28_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/bordeaux/oenotourisme">Visitez le vignoble de Bordeaux !</a>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/29_626x328.pngxw313xh164.webp, https://s.lesgrappes.com/media/lesgrappes21/menu/29_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/29_626x328.pngxw313xh164.jpg, https://s.lesgrappes.com/media/lesgrappes21/menu/29_626x328.pngxw628xh328.jpg 2x" src="https://s.lesgrappes.com/media/lesgrappes21/menu/29_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/provence/oenotourisme">Visitez le vignoble de Provence !</a>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/30_626x328.pngxw313xh164.webp, https://s1.lesgrappes.com/media/lesgrappes21/menu/30_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s1.lesgrappes.com/media/lesgrappes21/menu/30_626x328.pngxw313xh164.jpg, https://s1.lesgrappes.com/media/lesgrappes21/menu/30_626x328.pngxw628xh328.jpg 2x" src="https://s1.lesgrappes.com/media/lesgrappes21/menu/30_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/loire/oenotourisme">Visitez le vignoble de la Loire !</a>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/35_626x328.pngxw313xh164.webp, https://s2.lesgrappes.com/media/lesgrappes21/menu/35_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s2.lesgrappes.com/media/lesgrappes21/menu/35_626x328.pngxw313xh164.jpg, https://s2.lesgrappes.com/media/lesgrappes21/menu/35_626x328.pngxw628xh328.jpg 2x" src="https://s2.lesgrappes.com/media/lesgrappes21/menu/35_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/alsace/oenotourisme">Visitez le vignoble d'Alsace !</a>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/36_626x328.pngxw313xh164.webp, https://s3.lesgrappes.com/media/lesgrappes21/menu/36_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s3.lesgrappes.com/media/lesgrappes21/menu/36_626x328.pngxw313xh164.jpg, https://s3.lesgrappes.com/media/lesgrappes21/menu/36_626x328.pngxw628xh328.jpg 2x" src="https://s3.lesgrappes.com/media/lesgrappes21/menu/36_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/vallee-du-rhone/oenotourisme">Visitez le vignoble de Rhône !</a>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="submenu__img-link">
+                                  <picture>
+                                    <source srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/37_626x328.pngxw313xh164.webp, https://s.lesgrappes.com/media/lesgrappes21/menu/37_626x328.pngxw628xh328.webp 2x" type="image/webp">
+                                    <img loading="lazy" srcset="https://s.lesgrappes.com/media/lesgrappes21/menu/37_626x328.pngxw313xh164.jpg, https://s.lesgrappes.com/media/lesgrappes21/menu/37_626x328.pngxw628xh328.jpg 2x" src="https://s.lesgrappes.com/media/lesgrappes21/menu/37_626x328.pngxw313xh164.jpg" alt="" width="313" height="164">
+                                  </picture>
+                                  <a href="https://www.lesgrappes.com/vignerons/champagne/oenotourisme">Visitez le vignoble de Champagne !</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="submenu__footer"><a href="https://www.lesgrappes.com/vignerons/oenotourisme">Réservez votre prochaine visite chez un vigneron</a></div>
+                      </div>
+                    </li>
+                    <li><a href="https://www.lesgrappes.com/vins/foire-aux-vins-automne-2021" class="menu__link">
+                      <img src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/fav/bottles1.svg" width="16"> Foire aux vins</a>
+                    </li>
+                  </ul>			
+                </nav>
+                <div class="searchbar" data-js="searchbar">
+                  <input class="searchbar__input" placeholder="Rechercher un vigneron, un vin..." data-js="searchbar-input">
+                  <div class="searchbar__results" data-js="searchbar-results"></div>
+                </div>
+                <div class="menu-mobile">
+                  <ul>
+                    <li><a href="Le concept" class="menu-mobile__link">Le concept</a></li>
+                                        <li><a href="https://www.lesgrappes.com/vin-professionnel" class="menu-mobile__link">Professionnels ?<br>Découvrez LESGRAPPES <span class="red">PRO</span> !</a></li>
+                                        <li><a href="https://www.lesgrappes.com/export-international" class="menu-mobile__link">Importateur/Exportateur ? Découvrez Les Grappes EXPORT</a></li>
+                    <li><a href="https://www.lesgrappes.com/livraison" class="menu-mobile__link">Livraison</a></li>
+                    <li><a href="https://www.lesgrappes.com/nous-contacter" class="menu-mobile__link">Nous contacter</a></li>
+                  </ul>
+                </div>
+                <div class="lang-mobile">
+                    <a href="https://www.lesgrappes.com/grims/language/switch?lang=fr" class="lang-mobile__item active" title="Les Grappes en Français">FR</a>
+                    <a href="https://www.lesgrappes.com/grims/language/switch?lang=en" class="lang-mobile__item" title="Les Grappes en English">EN</a>
+                </div>
+            </div>
+          </div>
+    </header>
+    <!-- Fin Header -->
+    <!-- Content -->
+    <main id="main__content" class="main__content" role="main" tabindex="-1" aria-label="Contenu principal">
+      <!-- section 1 -->
+      <section class="section">
+        <div class="section__inner container">
+          <div class="section__particulier on">
+            <picture>
+              <source 
+                  srcset="assets/img/pictos/particulier.webp, assets/img/pictos/particulier.webp 2x" 
+                  type="image/webp" />
+              <img loading="lazy" 
+                srcset="assets/img/pictos/particulier.png, assets/img/pictos/particulier.png 2x" 
+                src="assets/img/pictos/particulier.jpg" alt="Particulier" />
+            </picture>
+            <h2 class="title title--level2"><a href="#" class="btn btn-particulier">Particulier</a></h2>
+          </div>
+          <div class="section__professionnel">
+            <picture>
+              <source 
+                  srcset="assets/img/pictos/professionnels.webp, assets/img/pictos/professionnels.webp 2x" 
+                  type="image/webp" />
+              <img loading="lazy" 
+                srcset="assets/img/pictos/professionnels.png, assets/img/pictos/professionnels.png 2x" 
+                src="assets/img/pictos/professionnels.jpg" alt="Professionnel" />
+            </picture>
+            <h2 class="title title--level2"><a href="#" class="btn btn-professionnel">Professionnel</a></h2>
+            <p>Restaurant, Caviste, épicerie, hôtel, etc</p>
+          </div>
+          <div class="section__vigneron">
+            <picture>
+              <source 
+                  srcset="assets/img/pictos/vigneron.webp, assets/img/pictos/vigneron.webp 2x" 
+                  type="image/webp" />
+              <img loading="lazy" 
+                srcset="assets/img/pictos/vigneron.png, assets/img/pictos/vigneron.png 2x" 
+                src="assets/img/pictos/vigneron.jpg" alt="Vigneron" />
+            </picture>
+            <h2 class="title title--level2"><a href="#" class="btn btn-vigneron">Vigneron</a></h2>
+          </div>
+        </div>
+      </section>
+      <!-- bloc connexion particulier -->
+      <section class="section">
+        <div class="connexion">
+          <h3 class="title title--level1">
+            Connexion 
+            <strong class="nameparticulier">particulier</strong>
+            <strong class="nameprofessionnel">professionnel</strong>
+            <strong class="namevigneron">vigneron</strong>
+          </h3>
+          <div class="section__inner">
+            <div class="form">
+              <form name="login" method="post" action="/login_check" data-label="login" class="form__login">
+                <div>
+                    <div class="form--bloc">
+                      <label for="login_username">E-mail</label>
+                        <input 
+                          type="email" 
+                          id="login_username" 
+                          name="login[username]" 
+                          required="required" 
+                          placeholder="E-mail" />
+                      </div> 
+                      <div class="form-group">
+                        <label for="login_password">Mot de passe</label>
+                          <input 
+                            type="password" 
+                            id="login_password" 
+                            name="login[password]" 
+                            required="required" 
+                            placeholder="Mot de passe" />
+                        </div> 
+                
+                    <div class="form-group">
+                        <a href="/oubli_mdp" rel="nofollow" class="form--forget">Mot de passe oublié ?</a>
+                    </div>
+                    <button type="submit" class="form--btn button">Se connecter</button>
+                    <div class="selection__link-all">
+                      <a class="link" href="/creer_compte" rel="nofollow" >
+                        Créer un compte
+                      </a>
+                    </div>
+                </div>
+              </form>
+            </div>
+          <div class="section__separator">
+              ou
+          </div>
+          <div class="section__btn">
+            <ul class="social">
+              <li class="social__facebook">
+                  <a href="https://www.facebook.com/#/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+                    <i class="icon-facebook"></i>
+                    <span>Se connecter AVEC FACEBOOK</span>
+                  </a>
+              </li>
+              <li class="social__google">
+                <a href="https://www.google.com/#/" target="_blank" rel="noopener" aria-label="Google" title="Google">
+                  <i class="icon-linkedin"></i>
+                  <span>Se connecter AVEC GOOGLE</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+  </main>
+  <!-- Fin Content -->
+  <!-- Reassurance -->
+  <section class="reassurance">
+    <div class="wrap wrap--no-shrink">
+        <div class="reassurance__group">
+            <h2 class="group__title">Le concept</h2>
+            <div class="group__list">
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/delivery.svg" alt="" loading="lazy" width="33" height="33">
+                    <div class="item__title">ACHAT DIRECT</div>
+                    <div class="item__text">En direct avec les vignerons à prix domaine</div>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/phone.svg" alt="" loading="lazy" width="33" height="33">
+                    <div class="item__title">DES CONSEILS</div>
+                    <div class="item__text">En direct avec les vignerons à prix domaine</div>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/chat.svg" alt="" loading="lazy" width="33" height="33">
+                    <div class="item__title">SOCIAL</div>
+                    <div class="item__text">Échange avec la communauté des Grappes</div>
+                </div>
+            </div>
+        </div>
+        <div class="reassurance__group reassurance__group--single">
+            <h2 class="group__title">Avis certifiés</h2>
+            <div class="group__list">
+                <div class="list__item">
+                    <img class="item__img" srcset="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/trustpilot.png, https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/trustpilot@2x.png 2x, https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/trustpilot@3x.png 3x" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/trustpilot.png" alt="" loading="lazy" width="109" height="60">
+                </div>
+            </div>
+        </div>
+        <div class="reassurance__group">
+            <h2 class="group__title">Nos garanties</h2>
+            <div class="group__list">
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/box.svg" alt="" loading="lazy" width="33" height="33">
+                    <div class="item__title">LIVRAISON</div>
+                    <div class="item__text">Gratuite dès 6 bouteilles</div>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/fast.svg" alt="" loading="lazy" width="33" height="33">
+                    <div class="item__title">Rapidité</div>
+                    <div class="item__text">Sous 5 jours ouvrés</div>
+                </div>
+                <div class="list__item">
+                    <img class="item__img" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/reassurance/shield.svg" alt="" loading="lazy" width="30" height="30">
+                    <div class="item__title">Sécurité</div>
+                    <div class="item__text">Paiements Sécurisés</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- Fin Reassurance -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap wrap--no-shrink">
+      <div class="row">
+        <div class="col-5 col-tab-12 footer__block">
+          <img class="block__logo hide-mob" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/logo--red-white2.svg" alt="Les Grappes" loading="lazy" width="177">
+          <p class="hide-mob">Nous avons à cœur d'aider chacun à boire du vin humain en simplifiant l'accès aux vignerons récoltants. Nous réinventons la distribution et la commercialisation des vins de vignerons récoltants, aux particuliers comme aux professionnels.</p>
+          <div class="footer__networks">
+                      <a href="https://www.linkedin.com/company/4989349" target="_blank" rel="noopener" title="linkedin"><i class="icon-linkedin"></i></a>
+                      <a href="https://www.youtube.com/channel/UCNq2DOOwtW_t5O3lF0USnbA" target="_blank" rel="noopener" title="youtube"><i class="icon-youtube-play"></i></a>
+                      <a href="https://www.instagram.com/lesgrappes/" target="_blank" rel="noopener" title="instagram"><i class="icon-instagram"></i></a>
+                  </div>
+        </div>
+        <div class="col-7 col-tab-12">
+          <div class="row">
+            <div class="col-4 col-mob-12 footer__block">
+              <div class="footer__title">À propos de Les Grappes</div>
+              <ul>
+                <li><a href="https://www.lesgrappes.com/le-concept">Le concept</a></li>
+                <li><a href="https://www.lesgrappes.com/notre-demarche">Notre Démarche</a></li>
+                <li><a href="https://www.lesgrappes.com/oenotourisme">Réservez une visite</a></li>
+                <li><a href="https://www.lesgrappes.com/notre-equipe">Notre Équipe</a></li>
+                <li><a href="https://www.lesgrappes.com/on-parle-de-nous">On parle de nous !</a></li>
+                <li><a href="https://www.lesgrappes.com/inscription" target="_blank" rel="noopener">Nous rejoindre</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-mob-12 footer__block">
+              <div class="footer__title">Recherchez sur Les Grappes</div>
+              <ul>
+                <li><a href="https://www.lesgrappes.com/les-grappes-entreprises">Nos offres aux entreprises</a></li>
+                <li><a href="https://www.lesgrappes.com/selection/idees-cadeaux/offrir-vin">Offrez du vin !</a></li>
+                <li><a href="https://www.lesgrappes.com/vignerons">Voir tous nos vignerons</a></li>
+                <li><a href="https://www.lesgrappes.com/vins">Voir tous nos vins</a></li>
+                <li><a href="http://lesgrappes.leparisien.fr/" target="_blank" rel="noopener">Notre Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-4 col-mob-12 footer__block">
+              <div class="footer__title">Besoin d'aide ?</div>
+              <ul>
+                <li><a href="https://www.lesgrappes.com/vendre">Vendre sur Les Grappes</a></li>
+                <li><a href="https://www.lesgrappes.com/faq">Questions fréquentes</a></li>
+                <li><a href="https://www.lesgrappes.com/nous-contacter">Nous contacter</a></li>
+                <li><a href="https://www.lesgrappes.com/cgu-vendeurs">CGU et CGV</a></li>
+                <li><a href="https://www.lesgrappes.com/mentions-legales">Mentions légales</a></li>
+                <li><a href="https://www.lesgrappes.com/sitemap">Plan du site</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bas">© 2021 Les Grappes, tous droits réservés<br><strong>L'abus d'alcool est dangereux pour la santé, sachez consommer avec modération</strong></div>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

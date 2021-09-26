@@ -1,0 +1,44 @@
+.title {
+  color: $color-third;
+  font-weight: 400;
+  line-height: 2.25;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  
+
+  &--level1 {
+    margin: 30px 0 50px;
+    text-align: center;
+    position: relative;
+    color:$color-secondary;
+  }
+}
+
+p {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+
+// DEVICE : TABLET
+
+@media screen and (min-width: $tablet) {
+  .title {
+    margin: 10px 0;
+
+    &--level1 {
+      font-size: 1.875rem;
+      font-family: $font-primary;
+    }
+
+    &--level2 {
+      font-size: 1.25rem;
+      line-height:3.438rem;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+}

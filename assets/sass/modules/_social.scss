@@ -1,0 +1,37 @@
+.social {
+
+	display: block;
+	list-style-type: none;
+    text-transform: uppercase;
+    text-align:center;
+
+    $el: &;
+
+    &__facebook,
+    &__google {
+        background:$color-facebook;
+        padding:10px 50px;
+        margin: 5px 0;
+        border-radius: 4px;
+        transition: all .2s ease;
+        
+        a {
+            color:$color-primary;
+            font-size:0.813rem;
+            font-weight:600;
+        }
+      }
+    
+      &__facebook:hover,
+      &__google:hover {
+            opacity: .7;
+        }
+
+    &__facebook {
+        background:$color-facebook;
+      }
+    
+    &__google {
+        background:$color-third;
+      }
+}

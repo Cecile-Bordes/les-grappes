@@ -1,0 +1,58 @@
+.form {
+
+	display: block;
+	list-style-type: none;
+  width:48%;
+    text-transform: uppercase;
+    text-align:center;
+
+    $el: &;
+
+    &__login {
+        padding:10px 50px;
+        margin: 5px 0;
+        border-radius: 4px;
+        transition: all .2s ease;
+        
+        label {
+            display: inline-block;
+            height: 1px;
+            -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px,1px,1px,1px);
+        }
+
+        input {
+            background: $color-primary;
+            border: 1px solid $color-sixt;
+            clear: both;
+            display: block;
+            width: 100%;
+            padding: 12px 10px 12px 20px;
+            outline: 0;
+            font-size:0.875rem;
+            font-weight: 300;
+            line-height: 1.3em;
+            height: 40px;
+            color: $color-sixt;
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+      }
+    
+      &--btn {
+        margin: 10px auto;
+    }
+
+    &--forget {
+        font-size:0.75rem;
+        color:$color-third;
+        text-align:right;
+        text-transform: lowercase;
+        display:block;
+        padding:5px;
+      }
+
+}

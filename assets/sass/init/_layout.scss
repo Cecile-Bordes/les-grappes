@@ -1,0 +1,13 @@
+.container,
+.connexion {
+  display: block;
+  width: 100%;
+  max-width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.connexion {
+  background:$color-primary;
+}
