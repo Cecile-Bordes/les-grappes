@@ -3,7 +3,7 @@
 
 ## Installation
 
-Use the package manager of your choice.
+Utilisez le gestionnaire de paquets de votre choix.
 
 ```bash
 npm install
@@ -15,7 +15,7 @@ yarn install
 
 ## Usage
 
-Launch the development server :
+Lancer le serveur de développement :
 
 ```bash
 npm run dev
@@ -25,10 +25,10 @@ or
 yarn dev
 ```
 
-## Files
+## Fichiers
 
-Write your html in /index.html
+Mon html dans /index.html
 
-Write your javascript in /main.js
+Mon javascript dans /main.js
 
-Manage your assets in /assets folder (sass, css, images, fonts...)
+Mes assets dans le dossier /assets (sass, css, images, fonts...)

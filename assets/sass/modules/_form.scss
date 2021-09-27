@@ -2,9 +2,10 @@
 
 	display: block;
 	list-style-type: none;
-  width:48%;
-    text-transform: uppercase;
-    text-align:center;
+  width:100%;
+  text-transform: uppercase;
+  text-align:center;
+  margin: 0 auto;
 
     $el: &;
 
@@ -14,6 +15,13 @@
         border-radius: 4px;
         transition: all .2s ease;
         
+        span {
+          color:$color-five;
+          font-size:0.75rem;
+          text-transform: none;
+          font-style: italic;
+        }
+
         label {
             display: inline-block;
             height: 1px;
@@ -38,6 +46,11 @@
             color: $color-sixt;
             -webkit-transition: all .3s ease;
             transition: all .3s ease;
+
+            :invalid {
+              border-color: $color-five;
+            }
+        
         }
 
       }
@@ -54,5 +67,12 @@
         display:block;
         padding:5px;
       }
+    
+}
+// DEVICE : LAPTOP
+@media screen and (min-width: $laptop) {
+  .form {
+    width:48%;
+  }
 
 }
