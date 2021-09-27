@@ -68,6 +68,26 @@ function btnOnclickvigneron() {
 }
 
 // FUNCTION : FORM VALIDATE PARTICULIER, PROFESSIONNEL et VIGNERON
+var formValidation = (input) => {
+  let _this = this;
+  this.myForm.addEventListener('keyup', event => {
+    event.preventDefault();
+ 
+    document.querySelector('#signin-email').removeAttribute('style');
+    document.querySelector('#signin-password').removeAttribute('style');
+ 
+    if (_this.champValid.test(document.querySelector('#signin-email').value) === false) {
+      return document.querySelector('#signin-email').style.backgroundColor = '#fba';
+    }
+ 
+    if (_this.champValid.test(document.querySelector('#signin-password').value) === false) {
+      return document.querySelector('#signin-password').style.backgroundColor = '#fba';
+    }
+     
+    // Le formulaire est valide
+  });
+}
+
 //let signin_form = document.querySelector('.form__login')
 let signin_form = document.forms[0];
 let signin_form_pro = document.forms[1];
