@@ -67,7 +67,7 @@ function btnOnclickvigneron() {
   });
 }
 
-// FUNCTION : FORM VALIDATE
+// FUNCTION : FORM VALIDATE PARTICULIER, PROFESSIONNEL et VIGNERON
 //let signin_form = document.querySelector('.form__login')
 let signin_form = document.forms[0];
 let signin_form_pro = document.forms[1];
@@ -85,7 +85,6 @@ var validateEmail = (email) => {
 
 var checkSigninInput = (input) => {
     let err_span = signin_form.querySelector(`span[data-err-for="${input.id}"]`)
-    
     let val = input.value.trim()
     let form_group = input.parentElement
 
@@ -146,7 +145,6 @@ var checkSigninInputPro = (input) => {
 
 var checkSigninInputVig = (input) => {
   let err_span_vig = signin_form_vig.querySelector(`span[data-err-for="${input.id}"]`)
-  
   let val = input.value.trim()
   let form_group = input.parentElement
 

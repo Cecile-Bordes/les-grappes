@@ -3,6 +3,9 @@
     "short_name":"les-grappes-test",
     "start_url": "index.html",
     "portée" : "./",
+    "display": "standalone",
+    "theme_color":"#646464",
+    "background_color":"#ffffff",
     "icons":[{
         "src":"assets/img/android-chrome-192x192.png",
         "sizes":"192x192",
@@ -15,7 +18,5 @@
             "type":"image/png",
             "purpose": "any maskable"
         }],
-        "theme_color":"#646464",
-        "background_color":"#ffffff",
-        "affichage": "autonome"
+        "display": "standalone"
 }

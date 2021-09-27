@@ -13,7 +13,8 @@
   <meta name="description" content="Les Grappes est la 1ère Plateforme d'Achat en Direct et de Réservation auprès de 1000 Vignerons Récoltants pour les PRO et les Particuliers" />
   <!-- Favicons-->
   <link rel="apple-touch-icon" href="/assets/img/logo-lesgrappes.svg">
-  <meta name="theme-color" content="#646464"/>
+  <meta name="theme-color" content="#646464" />
+  <meta name="msapplication-TileColor" content="#646464">
   <meta name="msapplication-TileColor" content="#000">
   <!-- Appel de la css du site pour afficher le header et le footer -->
   <link rel="stylesheet" type="text/css" href="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/css/app.css?t=1630360800" media="all" />
@@ -46,6 +47,7 @@
         }
     }
 </script> 
+<link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -539,13 +541,13 @@
           <div class="section__btn">
             <ul class="social">
               <li class="social__facebook">
-                  <a href="https://www.facebook.com/#/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+                  <a href="https://www.facebook.com/#/" rel="noopener" aria-label="Facebook" title="Facebook">
                     <i class="icon-facebook"></i>
                     <span>Se connecter AVEC FACEBOOK</span>
                   </a>
               </li>
               <li class="social__google">
-                <a href="https://www.google.com/#/" target="_blank" rel="noopener" aria-label="Google" title="Google">
+                <a href="https://www.google.com/#/" rel="noopener" aria-label="Google" title="Google">
                   <i class="icon-gplus"></i>
                   <span>Se connecter AVEC GOOGLE</span>
                 </a>
@@ -709,9 +711,9 @@
           <img class="block__logo hide-mob" src="https://www.lesgrappes.com/skin/frontend/lesgrappes21/default/dist/images/logo--red-white2.svg" alt="Les Grappes" loading="lazy" width="177" height="28" />
           <p class="hide-mob">Nous avons à cœur d'aider chacun à boire du vin humain en simplifiant l'accès aux vignerons récoltants. Nous réinventons la distribution et la commercialisation des vins de vignerons récoltants, aux particuliers comme aux professionnels.</p>
           <div class="footer__networks">
-                      <a href="https://www.linkedin.com/company/4989349" target="_blank" rel="noopener" title="linkedin"><i class="icon-linkedin"></i></a>
-                      <a href="https://www.youtube.com/channel/UCNq2DOOwtW_t5O3lF0USnbA" target="_blank" rel="noopener" title="youtube"><i class="icon-youtube-play"></i></a>
-                      <a href="https://www.instagram.com/lesgrappes/" target="_blank" rel="noopener" title="instagram"><i class="icon-instagram"></i></a>
+                      <a href="https://www.linkedin.com/company/4989349" rel="noopener" title="linkedin"><i class="icon-linkedin"></i></a>
+                      <a href="https://www.youtube.com/channel/UCNq2DOOwtW_t5O3lF0USnbA" rel="noopener" title="youtube"><i class="icon-youtube-play"></i></a>
+                      <a href="https://www.instagram.com/lesgrappes/" rel="noopener" title="instagram"><i class="icon-instagram"></i></a>
                   </div>
         </div>
         <div class="col-7 col-tab-12">
@@ -724,7 +726,7 @@
                 <li><a href="https://www.lesgrappes.com/oenotourisme">Réservez une visite</a></li>
                 <li><a href="https://www.lesgrappes.com/notre-equipe">Notre Équipe</a></li>
                 <li><a href="https://www.lesgrappes.com/on-parle-de-nous">On parle de nous !</a></li>
-                <li><a href="https://www.lesgrappes.com/inscription" target="_blank" rel="noopener">Nous rejoindre</a></li>
+                <li><a href="https://www.lesgrappes.com/inscription" rel="noopener">Nous rejoindre</a></li>
               </ul>
             </div>
             <div class="col-4 col-mob-12 footer__block">
@@ -734,7 +736,7 @@
                 <li><a href="https://www.lesgrappes.com/selection/idees-cadeaux/offrir-vin">Offrez du vin !</a></li>
                 <li><a href="https://www.lesgrappes.com/vignerons">Voir tous nos vignerons</a></li>
                 <li><a href="https://www.lesgrappes.com/vins">Voir tous nos vins</a></li>
-                <li><a href="http://lesgrappes.leparisien.fr/" target="_blank" rel="noopener">Notre Blog</a></li>
+                <li><a href="http://lesgrappes.leparisien.fr/" rel="noopener">Notre Blog</a></li>
               </ul>
             </div>
             <div class="col-4 col-mob-12 footer__block">
@@ -756,6 +758,13 @@
   </footer>
   <!-- Fin Footer -->
   <script type="module" src="/main.js"></script>
+  <script>;
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+  </script>
 </body>
 
 </html>
