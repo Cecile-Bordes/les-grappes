@@ -32,7 +32,7 @@ function btnOnclickparticulier() {
 
 function btnOnclickprofessionnel() {
   const button = document.querySelectorAll('.btn-professionnel');
-  
+ 
 
   button.forEach(elt => {
     elt.addEventListener('click', function (e) {
@@ -244,6 +244,10 @@ function init() {
 }
 
 // LISTENER : DOCUMENT LOADED
-document.addEventListener('DOMContentLoaded', function() {
+if( document.readyState !== 'loading' ) {
   init();
-});
+} else {
+  document.addEventListener('DOMContentLoaded', function () {
+    init();
+  });
+}
